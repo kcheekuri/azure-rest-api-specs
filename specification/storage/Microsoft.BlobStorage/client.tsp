@@ -408,7 +408,6 @@ enum ImmutabilityPolicySetting {
 @@scope(Storage.Blob.PageBlob.getPageRangesDiff, "!rust");
 
 @@clientName(Storage.Blob.ContainerProperties.eTag, "etag", "python");
-@@clientName(Storage.Blob.ContainerItem.delete, "deleted", "python");
 
 @@alternateType(Storage.Blob.UserDelegationKey.signedStart, string, "python");
 @@alternateType(Storage.Blob.UserDelegationKey.signedExpiry, string, "python");
